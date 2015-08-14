@@ -1,0 +1,30 @@
+{
+  "name": "nagu-pedigree",
+  "version": "0.0.1",
+  "description": "家谱系统基础库",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "cypher-utils": "^1.0.0",
+    "eventproxy": "^0.3.4",
+    "nagu-concepts": "^1.0.12"
+  },
+  "devDependencies": {
+    "should": "^7.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nagucc/pedigree.git"
+  },
+  "author": "na57",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/nagucc/pedigree/issues"
+  },
+  "homepage": "https://github.com/nagucc/pedigree"
+}
