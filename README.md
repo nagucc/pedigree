@@ -17,3 +17,4 @@
 			- `addCouple`
 			- `removeCouple`
 			- `detail`
+			- `ancestors` 获取Person的所有父系祖先

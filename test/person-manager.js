@@ -82,6 +82,19 @@ describe('Person model test', function () {
 		});
 	});
 
+	it('ancestors', function (done) {
+		this.timeout(15000);
+		pm.addNew(function (err, grandpa){
+			father.addFather(grandpa, function (err) {
+				person.ancestors(function (err, ancestors) {
+					should.not.exist(err);
+					ancestors.length.should.eql(2);
+					done();
+				})
+			})
+		});
+	})
+
 	it('removeFather', function (done) {
 		this.timeout(15000);
 		person.removeFather(father, function (err, result) {
