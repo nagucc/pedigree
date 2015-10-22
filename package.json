@@ -9,7 +9,7 @@
   "dependencies": {
     "cypher-utils": "^1.0.0",
     "eventproxy": "^0.3.4",
-    "nagu-concepts": "^1.0.12"
+    "nagu-concepts": "^1.0.13"
   },
   "devDependencies": {
     "should": "^7.0.1"

@@ -18,3 +18,12 @@
 			- `removeCouple`
 			- `detail`
 			- `ancestors` 获取Person的所有父系祖先
+		- `Middleware` 继承自 `nagu-concepts` 的 `Middleware`
+			- addFather
+			- removeFather
+			- addMother
+			- removeMother
+			- addCouple
+			- removeCouple
+			- detail
+			- ancestors
